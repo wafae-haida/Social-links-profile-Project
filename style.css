@@ -5,6 +5,7 @@ body{
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    padding: 50px;
 }
 .flex-container{
     display: flex;
@@ -54,12 +55,13 @@ body{
 }
 .list-buttons li:hover{
     background-color:chartreuse;
+    cursor: pointer;
     color: black;
 }
 .attribution{
     color: white;
-    padding: 15px;
     font-size: 11px;
+    margin-top: 10px;
 }
 .attribution a{
     color: rgb(217, 255, 0);
