@@ -13,7 +13,7 @@ body{
     flex-direction: column;
     background-color:#313131a0;
     border-radius: 10px;
-    padding: 10px;
+    padding: 25px;
 }
 .container{
    text-align: center;
@@ -29,12 +29,18 @@ body{
 .container h4{
     color: rgb(217, 255, 0);
 }
+.list-buttons{
+    padding-top: 30px;
+}
 .list-buttons ul{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 10px;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
 }
 .list-buttons li{
     border-radius: 4px;
@@ -53,4 +59,8 @@ body{
 .attribution{
     color: white;
     padding: 15px;
+    font-size: 11px;
+}
+.attribution a{
+    color: rgb(217, 255, 0);
 }
