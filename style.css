@@ -1,52 +1,80 @@
+@font-face {
+    font-family: 'Inter Bold';
+    src: url('./assets/fonts/static/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: 'Inter SemiBold';
+    src: url('./assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: 'Inter Regular';
+    src: url('./assets/fonts/static/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+  }
 body{
-    background-color: black;
+    background-color: hsl(0, 0%, 8%);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
     margin:0;
+    font-size: 14px;
 }
 .flex-container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color:#313131a0;
+    background-color:hsl(0, 0%, 12%);
     border-radius: 10px;
-    padding: 25px;
+    padding: 30px;
+    width: 300px;
+    color: hsl(0, 0%, 100%);
 }
 .container{
    text-align: center;
-   color: rgba(255, 255, 255, 0.735);
  }
  .container img{
     border-radius: 100px;
     width: 100px;
+    margin-bottom: 17px;
  }
- .container h1{
-    color: rgba(255, 255, 255, 0.893);
+ .name{
+    margin: 0;
+    font-family: 'Inter SemiBold', sans-serif;
  }
-.container h4{
-    color: rgb(217, 255, 0);
+.location{
+    color: hsl(75, 94%, 57%);
+    margin-top: 8px;
+    font-family: 'Inter Bold', sans-serif;
 }
+.description{
+    margin-top: 25px;
+    font-family: 'Inter Regular', sans-serif;
+ }
 .list-buttons{
-    padding-top: 30px;
+    margin-top: 10px;
+    font-family: 'Inter SemiBold', sans-serif;
 }
 .list-buttons ul{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     list-style: none; 
     padding: 0;
     margin: 0;
 }
 .list-buttons li{
     border-radius: 4px;
-    background-color:#2e2e2ed3;
-    color: white;
+    background-color:hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
     width:250px;
     height: 40px;
     display: flex;
@@ -54,17 +82,17 @@ body{
     justify-content: center;
 }
 .list-buttons li:hover{
-    background-color:chartreuse;
+    background-color:hsl(75, 94%, 57%);
     cursor: pointer;
     color: black;
 }
 .attribution{
-    color: white;
+    color: hsl(0, 0%, 100%);
     font-size: 11px;
     margin-top: 10px;
     width: 300px;
     text-align: center;
 }
 .attribution a{
-    color: rgb(217, 255, 0);
+    color: hsl(75, 94%, 57%);
 }
